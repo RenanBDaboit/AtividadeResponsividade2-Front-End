@@ -318,7 +318,7 @@ footer {
         --h4-font-size: 36px;
         --h5-font-size: 30px;
     }
-    
+
     .header-data {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
