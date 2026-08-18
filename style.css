@@ -13,11 +13,11 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--background-color);
-    box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -442,17 +442,14 @@ footer {
     .learn-more-section {
         flex-direction: row;
         align-items: center;
-        gap: 250px;
+        gap: 15%;
         padding-bottom: 134px;
+        padding-right: 0;
         width: 100%;
     }
 
     .learn-more-section h1 {
         letter-spacing: -4%;
-    }
-
-    .learn-more-section div {
-        margin-left: auto;
     }
 
     .learn-more-section div p {
