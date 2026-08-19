@@ -4,11 +4,11 @@
     --call-to-action-color: #3778FA;
     --question-area-background-color: #f3f3f3;
     --answer-text-color: #65676C;
-    --h1-font-size: 46px;
-    --h2-font-size: 30px;
-    --h3-font-size: 30px;
-    --h4-font-size: 20px;
-    --h5-font-size: 16px;
+    --h1-font-size: 2.875rem;
+    --h2-font-size: 1.875rem;
+    --h3-font-size: 1.875rem;
+    --h4-font-size: 1.25rem;
+    --h5-font-size: 1rem;
 }
 
 * {
@@ -48,7 +48,7 @@ h5 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 20px;
+    padding: 1rem 1.25rem;
 }
 
 .header-data h4 {
@@ -66,8 +66,8 @@ h5 {
 main {
     display: flex;
     flex-direction: column;
-    gap: 110px;
-    padding: 60px 20px;
+    gap: 6.875rem;
+    padding: 3.75rem 1.25rem;
 }
 
 .introduction-section {
@@ -77,7 +77,7 @@ main {
 }
 
 .introduction-texts {
-    padding: 0px 18px;
+    padding: 0rem 1.125rem;
 }
 
 .introduction-texts h1 {
@@ -87,12 +87,12 @@ main {
 
 .introduction-texts p {
     text-align: center;
-    font-size: 14px;
-    padding: 30px 0px;
+    font-size: 0.875rem;
+    padding: 1.875rem 0rem;
 }
 
 .introduction-section img {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     width: 100%;
 }
 
@@ -100,7 +100,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 2.1875rem;
 }
 
 .introductory-video-section h2 {
@@ -108,7 +108,7 @@ main {
 }
 
 .introductory-video-section img {
-    border-radius: 16px;
+    border-radius: 1rem;
     width: 100%;
 }
 
@@ -116,7 +116,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .question-section h2 {
@@ -128,32 +128,38 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: var(--question-area-background-color);
-    padding: 50px 22px 70px 22px;
-    border-radius: 20px;
-    gap: 40px;
+    padding: 3.125rem 1.375rem 4.375rem 1.375rem;
+    border-radius: 1.25rem;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.mobile-question-image {
+    width: 100%;
 }
 
 .desktop-question-image {
     display: none;
-    padding-right: 99px;
+    padding-right: 6.1875rem;
 }
 
 .questions-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin: 0px 10px;
+    gap: 0.625rem;
+    margin: 0px 0.625rem;
+    width: 100%;
 }
 
 .question-closed {
     display: flex;
     flex-direction: row;
     align-items: center;    
-    padding: 16px 10px;
+    padding: 1rem 0.625rem;
     width: 100%;
     background-color: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .question-closed span {
@@ -164,10 +170,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;    
-    padding: 16px 10px;
+    padding: 1rem 0.625rem;
     width: 100%;
     background-color: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .question {
@@ -179,83 +185,83 @@ main {
 
 .question span {
     margin-left: auto;
-    line-height: 2px;
-    padding-bottom: 16px;
+    line-height: 0.125rem;
+    padding-bottom: 1rem;
     color: var(--call-to-action-color);
 }
 
 .answer {
-    margin-top: 6px;
+    margin-top: 0.375rem;
     margin-right: 30%;
 }
 
 .answer p {
     color: var(--answer-text-color);
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     background-color: var(--call-to-action-color);
-    border-radius: 20px 20px 0px 0px;
-    padding: 68px 20px 30px 20px;
-    gap: 80px;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    padding: 4.25rem 1.25rem 1.875rem 1.25rem;
+    gap: 5rem;
 }
 
 .learn-more-section {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid var(--primary-color);
-    padding-bottom: 80px;
+    border-bottom: 0.0625rem solid var(--primary-color);
+    padding-bottom: 5rem;
     padding-right: 30%;
 }
 
 .learn-more-section h1 {
     color: var(--primary-color);
-    padding-bottom: 21px;
+    padding-bottom: 1.3125rem;
 }
 
 .learn-more-section p {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--primary-color);
-    padding-bottom: 27px;
+    padding-bottom: 1.6875rem;
 }
 
 .learn-more-section a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--secondary-color);
-    padding: 13px 21px;
+    padding: 0.8125rem 1.3125rem;
     margin-right: auto;
     background-color: var(--primary-color);
-    border-radius: 100px;
+    border-radius: 6.25rem;
 }
 
 .general-site-links-section {
     display: flex;
     flex-flow: row wrap;
-    gap: 58px;
+    gap: 3.625rem;
 }
 
 .general-site-links-introduction {
     width: 50%;
-    margin-right: 28px
+    margin-right: 1.75rem
 }
 
 .general-site-links-introduction h3{
     font-size: var(--h3-font-size);
     color: var(--primary-color);
     font-weight: 500;
-    padding-bottom: 17px;
+    padding-bottom: 1.0625rem;
 }
 
 .general-site-links-introduction p{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--primary-color);
     font-weight: 300;
-    line-height: 22px;
+    line-height: 1.375rem;
 }
 
 .desktop-all-links {
@@ -265,11 +271,11 @@ footer {
 .links-group-explore {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     color: var(--primary-color);
-    width: calc(100% / 3 - 58px);
-    gap: 22px;
+    width: calc(100% / 3 - 3.625rem);
+    gap: 1.375rem;
 }
 
 .mobile-botton-links {
@@ -282,26 +288,26 @@ footer {
 .links-group {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     color: var(--primary-color);
     width: auto;
-    padding-top: 11px;
-    gap: 22px;
+    padding-top: 0.6875;
+    gap: 1.375rem;
 }
 
 .copy-right-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .copy-right-section p {
     color: var(--primary-color);
     font-weight: 300;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     width: 70%;
 }
 
@@ -312,11 +318,11 @@ footer {
 
 @media(min-width: 1040px) {
     :root {
-        --h1-font-size: 136px;
-        --h2-font-size: 100px;
-        --h3-font-size: 40px;
-        --h4-font-size: 36px;
-        --h5-font-size: 30px;
+        --h1-font-size: 8.5rem;
+        --h2-font-size: 6.25rem;
+        --h3-font-size: 2.5rem;
+        --h4-font-size: 2.25rem;
+        --h5-font-size: 1.875rem;
     }
 
     .header-data {
@@ -336,14 +342,14 @@ footer {
         grid-column: 2 / 3;
         display: flex;
         flex-direction: row;
-        gap: 43px;
+        gap: 2.6875rem;
     }
 
     .header-CTA-buttons {
         grid-column: 3 / 4;
         display: flex;
         flex-direction: row;
-        gap: 39px;
+        gap: 2.4375rem;
         padding-left: 20%;
     }
 
@@ -352,15 +358,15 @@ footer {
         background-color: transparent;
         color: var(--secondary-color);
         font-weight: 500;
-        padding: 18px 0px;
+        padding: 1.125rem 0px;
     }
 
     .header-CTA-buttons p {
-        padding: 18px 35px;
+        padding: 1.125rem 2.1875rem;
         color: var(--primary-color);
-        font-size: 18px;
+        font-size: 1.125rem;
         background-color: var(--call-to-action-color);
-        border-radius: 100px;
+        border-radius: 6.25rem;
     }
 
     .menu-icon {
@@ -368,45 +374,46 @@ footer {
     }
 
     main {
-        padding: 146px 125px;
-        gap: 298px;
+        padding: 9.125rem 7.8125rem;
+        gap: 18.625rem;
     }
 
     .introduction-section h1 {
-        padding: 0px 15%;
+        padding: 0rem 15%;
     }
 
     .introduction-section p {
-        font-size: 24px;
-        padding: 46px 24% 72px 24%;
+        font-size: 1.5rem;
+        padding: 2.875rem 24% 4.5rem 24%;
     }
 
     .introductory-video-section {
-        gap: 80px;
+        gap: 5rem;
     }
 
     .introductory-video-section h2 {
-        padding: 0px 14%;
+        padding: 0rem 14%;
     }
 
     .question-section {
-        gap: 79px;
+        gap: 4.9375rem;
     }
 
     .question-section h2 {
-        padding: 0px 20%;
+        padding: 0rem 20%;
     }
 
     .questions-area {
         flex-direction: row;
-        padding: 120px 91px 0px 91px;
+        padding: 7.5rem 5.6875rem 0rem 5.6875rem;
         align-items: flex-start;
-        border-radius: 60px;
+        border-radius: 3.75rem;
     }
 
     .desktop-question-image {
+        height: 100%;
         display: block;
-        padding-right: 99px;
+        padding-right: 6.1875rem;
     }
 
     .mobile-question-image {
@@ -414,37 +421,37 @@ footer {
     }
 
     .questions-cards {
-        width: 842px;
-        gap: 26px;
+        width: 52.625rem;
+        gap: 1.625rem;
     }
 
     .question-closed {
-        padding: 46px 26px;
-        border-radius: 16px;
+        padding: 2.875rem 1.625rem;
+        border-radius: 1rem;
     }
 
     .question-opened {
-        padding: 46px 26px;
-        gap: 21px;
-        border-radius: 16px;
+        padding: 2.875rem 1.625rem;
+        gap: 1.3125rem;
+        border-radius: 1rem;
     }
 
     .answer p{
-        font-size: 20px;
+        font-size: 1.25rem;
         width: 60%;
     }
 
     footer {
-        padding: 138px 140px;
-        gap: 160px;
+        padding: 8.625rem 8.75rem;
+        gap: 10rem;
     }
 
     .learn-more-section {
         flex-direction: row;
         align-items: center;
         gap: 15%;
-        padding-bottom: 134px;
-        padding-right: 0;
+        padding-bottom: 8.375rem;
+        padding-right: 0rem;
         width: 100%;
     }
 
@@ -453,20 +460,20 @@ footer {
     }
 
     .learn-more-section div p {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 300;
         padding: 0;
-        margin-bottom: 58px;
+        margin-bottom: 3.625rem;
     }
 
     .learn-more-section div a {
-        padding: 22px 42px;
-        font-size: 22px;
+        padding: 1.375rem 2.625rem;
+        font-size: 1.375rem;
     }
 
     .general-site-links-section {
         flex-flow: row nowrap;
-        gap: 187px;
+        gap: 11.6875rem;
     }    
 
     .general-site-links-introduction {
@@ -475,25 +482,25 @@ footer {
     }
 
     .general-site-links-introduction p {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
         font-weight: 200;
     }
 
     .all-links {
         display: flex;
         flex-direction: row;
-        gap: 187px;
+        gap: 11.6875rem;
     }
 
     .links-group-explore {
-        font-size: 22px;
-        line-height: 36px;
+        font-size: 1.375rem;
+        line-height: 2.25rem;
     }
 
     .links-group {
-        font-size: 22px;
-        line-height: 36px;
+        font-size: 1.375rem;
+        line-height: 2.25rem;
         white-space: nowrap;
     }
 
@@ -503,7 +510,7 @@ footer {
     }
 
     .copy-right-section p {
-        font-size: 18px;
+        font-size: 1.125rem;
         white-space: nowrap;
         width: fit-content;
     }
